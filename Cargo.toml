@@ -1,0 +1,33 @@
+[package]
+name = "nine-router-proxy"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A hardened streaming reverse and forward proxy for 9router"
+license = "Apache-2.0"
+repository = "https://github.com/eikarna/9router_proxy"
+publish = false
+
+[dependencies]
+axum = "0.7"
+base64 = "0.22"
+hyper = "1"
+hyper-util = { version = "0.1", features = ["tokio"] }
+rand = "0.8"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "socks", "stream"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+tokio = { version = "1.37", features = ["io-util", "macros", "net", "rt-multi-thread", "signal", "sync", "time"] }
+tokio-socks = "0.5"
+tower = { version = "0.5", features = ["make", "util"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

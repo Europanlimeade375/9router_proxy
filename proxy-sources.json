@@ -1,0 +1,743 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/refs/heads/main/proxies/all/data.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "proxifly-all",
+      "validated": true
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/refs/heads/master/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "TheSpeedX-http",
+      "validated": true
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/refs/heads/master/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "TheSpeedX-socks4",
+      "validated": true
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/refs/heads/master/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "TheSpeedX-socks5",
+      "validated": true
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/refs/heads/main/allive.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "dpangestuw-allive",
+      "validated": false
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/all.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "Thordata-all",
+      "validated": true
+    },
+    {
+      "id": 7,
+      "url": "https://raw.githubusercontent.com/theriturajps/proxy-list/main/proxies.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "theriturajps-proxies",
+      "validated": true
+    },
+    {
+      "id": 8,
+      "url": "https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "vmheaven-http",
+      "validated": true
+    },
+    {
+      "id": 9,
+      "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "proxifly-http",
+      "validated": true
+    },
+    {
+      "id": 10,
+      "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "roosterkid-https",
+      "validated": true
+    },
+    {
+      "id": 11,
+      "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "mmpx12-http",
+      "validated": false
+    },
+    {
+      "id": 12,
+      "url": "https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "mmpx12-https",
+      "validated": false
+    },
+    {
+      "id": 13,
+      "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "Zaeem20-http",
+      "validated": true
+    },
+    {
+      "id": 14,
+      "url": "https://raw.githubusercontent.com/TopChina/proxy-list/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "TopChina-http",
+      "validated": false
+    },
+    {
+      "id": 15,
+      "url": "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "officialputuid-http",
+      "validated": false
+    },
+    {
+      "id": 16,
+      "url": "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "gfpcom-http",
+      "validated": false
+    },
+    {
+      "id": 17,
+      "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "monosans-http",
+      "validated": true
+    },
+    {
+      "id": 18,
+      "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies_anonymous/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "monosans-anonymous",
+      "validated": false
+    },
+    {
+      "id": 19,
+      "url": "https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "zloi-user-hideip",
+      "validated": true
+    },
+    {
+      "id": 20,
+      "url": "https://raw.githubusercontent.com/vorz1k/v2box/main/supreme_vpns_1.txt",
+      "type": "subscription_base64",
+      "protocol": "http",
+      "enabled": false,
+      "name": "vorz1k-supreme",
+      "validated": true
+    },
+    {
+      "id": 21,
+      "url": "https://raw.githubusercontent.com/Sage-77/V2ray-configs/main/vmess.txt",
+      "type": "subscription_base64",
+      "protocol": "vmess",
+      "enabled": false,
+      "name": "Sage-77-vmess",
+      "validated": false
+    },
+    {
+      "id": 22,
+      "url": "https://raw.githubusercontent.com/Sage-77/V2ray-configs/main/vless.txt",
+      "type": "subscription_base64",
+      "protocol": "vless",
+      "enabled": false,
+      "name": "Sage-77-vless",
+      "validated": false
+    },
+    {
+      "id": 23,
+      "url": "https://raw.githubusercontent.com/Sage-77/V2ray-configs/main/trojan.txt",
+      "type": "subscription_base64",
+      "protocol": "trojan",
+      "enabled": false,
+      "name": "Sage-77-trojan",
+      "validated": false
+    },
+    {
+      "id": 24,
+      "url": "https://raw.githubusercontent.com/Sage-77/V2ray-configs/main/ss.txt",
+      "type": "subscription_base64",
+      "protocol": "ss",
+      "enabled": false,
+      "name": "Sage-77-ss",
+      "validated": false
+    },
+    {
+      "id": 25,
+      "url": "https://raw.githubusercontent.com/Sage-77/V2ray-configs/main/config.txt",
+      "type": "subscription_base64",
+      "protocol": "http",
+      "enabled": false,
+      "name": "Sage-77-config",
+      "validated": false
+    },
+    {
+      "id": 26,
+      "url": "https://github.com/SoliSpirit/proxy-list",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "SoliSpirit",
+      "validated": false
+    },
+    {
+      "id": 27,
+      "url": "https://github.com/zloi-user/hideip.me",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "zloi-user",
+      "validated": false
+    },
+    {
+      "id": 28,
+      "url": "https://github.com/ClearProxy/checked-proxy-list",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "ClearProxy",
+      "validated": false
+    },
+    {
+      "id": 29,
+      "url": "https://github.com/stormsia/proxy-list",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "stormsia",
+      "validated": false
+    },
+    {
+      "id": 30,
+      "url": "https://github.com/databay-labs/free-proxy-list",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "databay-labs",
+      "validated": false
+    },
+    {
+      "id": 31,
+      "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "komutan234-http",
+      "validated": true
+    },
+    {
+      "id": 32,
+      "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "komutan234-socks4",
+      "validated": true
+    },
+    {
+      "id": 33,
+      "url": "https://raw.githubusercontent.com/komutan234/Proxy-List-Free/main/proxies/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "komutan234-socks5",
+      "validated": true
+    },
+    {
+      "id": 34,
+      "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "vakhov-http",
+      "validated": true
+    },
+    {
+      "id": 35,
+      "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": true,
+      "name": "vakhov-https",
+      "validated": true
+    },
+    {
+      "id": 36,
+      "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "vakhov-socks4",
+      "validated": true
+    },
+    {
+      "id": 37,
+      "url": "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": true,
+      "name": "vakhov-socks5",
+      "validated": true
+    },
+    {
+      "id": 38,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "TheSpeedX-http-2",
+      "validated": true
+    },
+    {
+      "id": 39,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "TheSpeedX-https",
+      "validated": false
+    },
+    {
+      "id": 40,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "TheSpeedX-socks4-2",
+      "validated": true
+    },
+    {
+      "id": 41,
+      "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "TheSpeedX-socks5-2",
+      "validated": true
+    },
+    {
+      "id": 42,
+      "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/https/data.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "proxifly-https",
+      "validated": true
+    },
+    {
+      "id": 43,
+      "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks4/data.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "proxifly-socks4",
+      "validated": true
+    },
+    {
+      "id": 44,
+      "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "proxifly-socks5",
+      "validated": true
+    },
+    {
+      "id": 45,
+      "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "Thordata-http",
+      "validated": true
+    },
+    {
+      "id": 46,
+      "url": "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "Thordata-socks5",
+      "validated": true
+    },
+    {
+      "id": 47,
+      "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": false,
+      "name": "proxyscrape-http",
+      "validated": true
+    },
+    {
+      "id": 48,
+      "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all",
+      "type": "generic_text",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "proxyscrape-socks4",
+      "validated": true
+    },
+    {
+      "id": 49,
+      "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all",
+      "type": "generic_text",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "proxyscrape-socks5",
+      "validated": true
+    },
+    {
+      "id": 50,
+      "url": "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "sunny9577",
+      "validated": true
+    },
+    {
+      "id": 51,
+      "url": "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "hookzof-socks5",
+      "validated": true
+    },
+    {
+      "id": 52,
+      "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "ErcinDedeoglu-http",
+      "validated": true
+    },
+    {
+      "id": 53,
+      "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "ErcinDedeoglu-https",
+      "validated": true
+    },
+    {
+      "id": 54,
+      "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "ErcinDedeoglu-socks4",
+      "validated": true
+    },
+    {
+      "id": 55,
+      "url": "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "ErcinDedeoglu-socks5",
+      "validated": true
+    },
+    {
+      "id": 56,
+      "url": "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "clarketm",
+      "validated": true
+    },
+    {
+      "id": 57,
+      "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "roosterkid-socks4",
+      "validated": true
+    },
+    {
+      "id": 58,
+      "url": "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": true,
+      "name": "roosterkid-socks5",
+      "validated": true
+    },
+    {
+      "id": 59,
+      "url": "https://raw.githubusercontent.com/UpTimeRobot/proxy-list/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "UpTimeRobot-http",
+      "validated": false
+    },
+    {
+      "id": 60,
+      "url": "https://raw.githubusercontent.com/UpTimeRobot/proxy-list/main/https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "UpTimeRobot-https",
+      "validated": false
+    },
+    {
+      "id": 61,
+      "url": "https://raw.githubusercontent.com/UpTimeRobot/proxy-list/main/socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "UpTimeRobot-socks4",
+      "validated": false
+    },
+    {
+      "id": 62,
+      "url": "https://raw.githubusercontent.com/UpTimeRobot/proxy-list/main/socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "UpTimeRobot-socks5",
+      "validated": false
+    },
+    {
+      "id": 63,
+      "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "jetkai-http",
+      "validated": true
+    },
+    {
+      "id": 64,
+      "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "jetkai-https",
+      "validated": true
+    },
+    {
+      "id": 65,
+      "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "jetkai-socks4",
+      "validated": true
+    },
+    {
+      "id": 66,
+      "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "jetkai-socks5",
+      "validated": true
+    },
+    {
+      "id": 67,
+      "url": "https://onionoo.torproject.org/details?type=relay&running=true&flag=Exit&fields=or_addresses",
+      "type": "tor_exit",
+      "protocol": "http",
+      "enabled": true,
+      "name": "onionoo.torproject.org",
+      "validated": false
+    },
+    {
+      "id": 68,
+      "url": "https://spys.me/proxy.txt",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": false,
+      "name": "spys.me",
+      "validated": true
+    },
+    {
+      "id": 69,
+      "url": "https://free-proxy-list.net/",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "free-proxy-list.net",
+      "validated": false
+    },
+    {
+      "id": 70,
+      "url": "https://www.sslproxies.org/",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": false,
+      "name": "www.sslproxies.org",
+      "validated": true
+    },
+    {
+      "id": 71,
+      "url": "https://www.proxynova.com/proxy-server-list/",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "proxy-server-list",
+      "validated": false
+    },
+    {
+      "id": 72,
+      "url": "https://hidemy.name/en/proxy-list/",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "proxy-list",
+      "validated": false
+    },
+    {
+      "id": 73,
+      "url": "https://www.proxy-list.download/api/v1/get?type=http",
+      "type": "generic_text",
+      "protocol": "http",
+      "enabled": true,
+      "name": "proxy-list-download-http",
+      "validated": true
+    },
+    {
+      "id": 74,
+      "url": "https://www.proxy-list.download/api/v1/get?type=socks5",
+      "type": "generic_text",
+      "protocol": "socks5h",
+      "enabled": true,
+      "name": "proxy-list-download-socks5",
+      "validated": true
+    },
+    {
+      "id": 75,
+      "url": "https://openproxylist.xyz/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "openproxylist.xyz",
+      "validated": true
+    },
+    {
+      "id": 76,
+      "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/http_all.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "VPSLabCloud-http",
+      "validated": true
+    },
+    {
+      "id": 77,
+      "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/http_ssl_elite.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": true,
+      "name": "VPSLab-ssl-elite",
+      "validated": true
+    },
+    {
+      "id": 78,
+      "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks4_all.txt",
+      "type": "github_raw",
+      "protocol": "socks4",
+      "enabled": false,
+      "name": "VPSLabCloud-socks4",
+      "validated": true
+    },
+    {
+      "id": 79,
+      "url": "https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks5_all.txt",
+      "type": "github_raw",
+      "protocol": "socks5h",
+      "enabled": false,
+      "name": "VPSLabCloud-socks5",
+      "validated": true
+    },
+    {
+      "id": 80,
+      "url": "https://raw.githubusercontent.com/shiftytr/proxy-list/master/proxy.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "shiftytr",
+      "validated": true
+    },
+    {
+      "id": 81,
+      "url": "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "ALIILAPRO-http",
+      "validated": true
+    },
+    {
+      "id": 82,
+      "url": "https://raw.githubusercontent.com/almroot/proxylist/master/list.txt",
+      "type": "github_raw",
+      "protocol": "http",
+      "enabled": false,
+      "name": "almroot",
+      "validated": true
+    }
+  ]
+}

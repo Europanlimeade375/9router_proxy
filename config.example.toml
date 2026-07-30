@@ -1,0 +1,65 @@
+# Model quality profiles loaded at startup.
+#
+# `body` is recursively merged into the incoming JSON and wins on conflicts.
+# Objects merge recursively; arrays and scalar values are replaced.
+# `remove` uses RFC 6901 JSON Pointers and runs before `body` is merged.
+# Provider-specific field names and model IDs must be supported by your backend.
+version = 1
+
+# Existing Inkling alias, now data-driven rather than hard-coded in Rust.
+[[models]]
+aliases = ["thinkingmachines/inkling(high)", "quality/inkling"]
+target = "thinkingmachines/inkling"
+remove = ["/thinking_mode"]
+
+[models.body]
+reasoning_effort = "high"
+
+# OpenAI-style reasoning and response-detail controls.
+[[models]]
+aliases = ["quality/openai-gpt-5", "openai/gpt-5(high)"]
+target = "openai/gpt-5"
+remove = ["/thinking", "/thinking_mode"]
+
+[models.body]
+reasoning_effort = "high"
+verbosity = "high"
+
+# Anthropic-style nested extended thinking.
+[[models]]
+aliases = ["quality/claude-sonnet-4", "anthropic/claude-sonnet-4(thinking)"]
+target = "anthropic/claude-sonnet-4"
+remove = ["/reasoning_effort", "/thinking_mode"]
+
+[models.body.thinking]
+type = "enabled"
+budget_tokens = 32000
+
+# Gemini-style deeply nested provider configuration used by some gateways.
+[[models]]
+aliases = ["quality/gemini-2.5-pro", "google/gemini-2.5-pro(thinking)"]
+target = "google/gemini-2.5-pro"
+remove = ["/reasoning_effort", "/thinking_mode"]
+
+[models.body.extra_body.google.thinking_config]
+thinking_budget = 32768
+include_thoughts = true
+
+# Qwen-style top-level thinking switch.
+[[models]]
+aliases = ["quality/qwen3-235b", "qwen/qwen3-235b-a22b(thinking)"]
+target = "qwen/qwen3-235b-a22b"
+remove = ["/reasoning_effort", "/thinking"]
+
+[models.body]
+enable_thinking = true
+
+# Gateway-neutral nested reasoning shape supported by OpenRouter-like APIs.
+[[models]]
+aliases = ["quality/deepseek-r1", "deepseek/deepseek-r1(high)"]
+target = "deepseek/deepseek-r1"
+remove = ["/reasoning_effort", "/thinking", "/thinking_mode"]
+
+[models.body.reasoning]
+effort = "high"
+exclude = false

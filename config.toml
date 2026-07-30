@@ -1,0 +1,16 @@
+# Model quality profiles loaded at startup.
+#
+# `body` is recursively merged into the incoming JSON and wins on conflicts.
+# Objects merge recursively; arrays and scalar values are replaced.
+# `remove` uses RFC 6901 JSON Pointers and runs before `body` is merged.
+# Provider-specific field names and model IDs must be supported by your backend.
+version = 1
+
+# Existing Inkling alias, now data-driven rather than hard-coded in Rust.
+[[models]]
+aliases = ["thinkingmachines/inkling(high)"]
+target = "thinkingmachines/inkling"
+# remove = ["/thinking_mode"]
+
+[models.body]
+reasoning_effort = "high"

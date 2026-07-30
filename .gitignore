@@ -1,0 +1,7 @@
+/target
+/.env
+/.env.*
+!/.env.example
+/proxy-cache.txt
+/proxy-cache.txt.bak
+/proxy-cache.txt.*.tmp
